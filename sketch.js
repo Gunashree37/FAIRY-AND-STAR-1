@@ -64,20 +64,6 @@ function draw() {
 
 function keyPressed() {
 
-	if (keyCode === DOWN_ARROW) 
-	{
-	 Matter.Body.setStatic(starBody,false); 
-	}
-
-	//writw code to move fairy left and right
 	
-	if(keyCode === RIGHT_ARROW)
-	{
-     fairy.x = fairy.x + 30;
-	}
-
-	if(keyCode === LEFT_ARROW)
-	{
-     fairy.x = fairy.x - 10;
-	}
+	
 }
